@@ -4,6 +4,7 @@
     <div class="row" style="margin-left:300px";>
         <div class="col-sm-8 col-sm-offset-4">
             <form action="login" method="POST">
+                @csrf
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="email" style="width:100%" name="email">
